@@ -1,22 +1,32 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package practica_poo_v2;
+import java.util.Scanner;
 
 /**
  *
  * @author Ariel
  */
 public class Practica_poo_v2 {
-
-    /**
-     * @param args the command line arguments
-     */
+    static Scanner leer = new Scanner(System.in);
+    
     public static void main(String[] args) {
-        System.out.println("Hola");
-        System.out.println("bai :v");
+        boolean seguir = true;
+        while (seguir){
+            System.out.println("------MENU------");
+            System.out.println("1. Clanchas");
+            System.out.println("2. Perritos");
+            System.out.println("----------------");
+            int opcion = leer.nextInt();
+            switch(opcion){
+                case 1:
+
+                break;
+                case 2:
+
+                break;
+                default: seguir = false;
+                    System.out.println("Saliendo...");
+            }
+        }
     }
     
 }
