@@ -4,7 +4,7 @@ public class perritos {
     //atributos
     private String name;
     private String raza;
-    private int altura;
+    private double altura;
     
     //constructores
     public perritos(String name, String raza) {
@@ -12,13 +12,13 @@ public class perritos {
         this.raza = raza;
     }
 
-    public perritos(String name, String raza, int altura) {
+    public perritos(String name, String raza, double altura) {
         this.name = name;
         this.raza = raza;
         this.altura = altura;
     }
 
-    public perritos(String name, int altura) {
+    public perritos(String name, double altura) {
         this.name = name;
         this.altura = altura;
     }
@@ -40,7 +40,7 @@ public class perritos {
         this.raza = raza;
     }
 
-    public int getAltura() {
+    public double getAltura() {
         return altura;
     }
 
