@@ -16,6 +16,7 @@ public class Practica_poo_v2 {
      */
     public static void main(String[] args) {
         System.out.println("Hola");
+        System.out.println("bai :v");
     }
     
 }
