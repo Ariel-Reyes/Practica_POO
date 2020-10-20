@@ -74,9 +74,8 @@ public class chanclas {
     }
 
     // MA
-    public String toString(){
-        return "Marca: " + marca +" La talla: " + size + " El color: " +color +" Estilo: " + estilo; 
+    public String toString() {
+        return "Marca: " + marca + " La talla: " + size + " El color: " + color + " Estilo: " + estilo;
     }
-    
-    
+
 }
